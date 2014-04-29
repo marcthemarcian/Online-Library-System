@@ -1,0 +1,22 @@
+#addcontainer {
+  background-color: white;
+  min-height: 500px;
+  width: 530px;
+  padding: 20px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+label {
+}
+
+input, select {
+  position: absolute;
+  right: 480px;
+  min-width: 160px;
+}
+
+#form {
+  text-align: left;
+  margin-left: 100px;
+}

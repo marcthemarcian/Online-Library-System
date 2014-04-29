@@ -1,0 +1,13 @@
+#aboutcontent {
+  width: 1060px;
+  margin: 100px auto;
+  min-height: 400px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  color: #08C;
+}
+
+p {
+  color: #08C;
+}

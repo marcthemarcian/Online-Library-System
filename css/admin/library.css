@@ -1,0 +1,123 @@
+#libcontent {
+  width: 1100px;
+  margin: 100px auto;
+  min-height: 550px;
+  background-color: white;
+}
+
+#tabContainer {  
+  width: 100%;
+  min-height: 550px;
+  background-color: white;
+  left: 450px;
+  top: 100px;
+  z-index: -1000;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;
+  margin: 45px;
+  width: 480px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table th {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #FE3F44;
+  border-bottom: 4px solid #fff;
+  color: white;
+  width: 480px;
+  text-decoration: bold;
+}
+
+table td {
+  min-width: 124px;
+  padding: 8px;
+  background: #FFB2B2; 
+  border-bottom: 1px solid #fff;
+  color: #FE3F44;
+  border-top: 1px solid transparent;
+  width: 100px;
+}
+
+table tr:hover td {
+  background: #FF7F7F;
+  color: white;
+}
+
+.tabs input[type=radio] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.tabs {
+  width: 100%;
+  float: none;
+  list-style: none;
+  position: relative;
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.tabs li{
+  float: left;
+}
+
+.tabs label {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 2px 2px 0 0;
+  color: #FE3F44;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "SourceSansPro-Regular";
+  background: rgba(255,255,255,0.2);
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs label:hover {
+  background: rgba(255,255,255,0.5);
+  top: 0;
+}
+
+[id^=tab]:checked + a label {
+  background: #FE3F44;
+  color: white;
+  top: 0;
+}
+
+[id^=tab]:checked ~ [id^=tab-content] {
+  display: block;
+  border-top: 2px solid #FE3F44;
+}
+
+.tab-content{
+  z-index: 2;
+  display: none;
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 140%;
+  padding-top: 10px;
+  background: white;
+  padding: 15px;
+  color: black;
+  position: absolute;
+  left: 0;
+  box-sizing: border-box;
+  -webkit-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}

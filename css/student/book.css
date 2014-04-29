@@ -1,0 +1,21 @@
+#bookcontainer {
+  height: 550px;
+  width: 500px;
+  margin: 100px auto;
+  margin-bottom: 0px;
+  background: white;
+}
+
+#photo {
+  width: 100%;
+  padding: 10px;
+}
+
+img {
+  margin-left: 160px;
+  margin-top: 20px;
+}
+
+#details {
+  margin-top: 0px;
+}

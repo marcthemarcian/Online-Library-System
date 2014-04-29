@@ -1,0 +1,9 @@
+#aboutcontent {
+  width: 1060px;
+  margin: 100px auto;
+  min-height: 400px;
+  background-color: white;
+  color: #08C;
+  text-align: center;
+  padding: 20px;
+}
